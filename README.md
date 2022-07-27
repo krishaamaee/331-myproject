@@ -1,2 +1,2 @@
 # 331-myproject
-Job Work App: Clicks to Grind
+Just Work App: Clicks to Grind
