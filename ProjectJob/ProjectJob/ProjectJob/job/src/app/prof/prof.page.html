@@ -1,0 +1,46 @@
+<ion-content>
+<br>
+  <ion-button href="jobs" style= " border-radius:30%;float:center; width:80px;height:20px;">Back</ion-button>
+
+<br>
+<br>
+
+<ion-toolbar>
+<center><ion-title ><h5>Add Info</h5></ion-title></center>
+</ion-toolbar>
+<ion-card>
+  
+  <ion-label style="margin:6%"><b>First Name </b></ion-label>
+      <ion-item>
+        <ion-input></ion-input>
+  </ion-item>
+<ion-label style="margin:5%"><b>Last Name: </b></ion-label>
+    <ion-item>
+      <ion-input></ion-input>
+</ion-item>
+<ion-label style="margin:5%"><b>Phone Number:</b>(Optional)</ion-label>    
+<ion-item>   
+  <ion-input></ion-input>
+</ion-item>
+    <ion-label ><b style="margin:6%">Email</b></ion-label>
+    <ion-item>
+      <ion-input></ion-input>
+</ion-item>
+    <br>
+    <br>
+  <ion-label style="margin:5%"><b>Country Side:</b>(Optional)</ion-label>
+      <ion-item>
+        <ion-input ></ion-input>
+         
+    </ion-item>
+    <ion-label style="margin:5%"><b>Please attach your resume</b></ion-label>
+  </ion-card>
+  <ion-button expand="full">
+    <ion-icon lazy="true" slot="start" name="image"></ion-icon>
+    <ion-label slot="end"></ion-label>
+    <input type="file" (change)="loadImageFromDevice($event)" id="file-input"
+      accept="image/png, image/jpeg">
+  </ion-button> 
+  <center><ion-button href="mail">Submit</ion-button></center>
+</ion-content>
+
